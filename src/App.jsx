@@ -1,5 +1,6 @@
 import RaoButton from "./RaoButtom";
 import Hello from "./Hello";
+import Random from "./Random";
 
 function App() {
   return <div>
@@ -10,6 +11,9 @@ function App() {
 
   <RaoButton></RaoButton>
   <Hello></Hello>
+  <Random></Random>
+  <Random></Random>
+  
 
   </div> 
   
