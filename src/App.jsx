@@ -1,38 +1,52 @@
 import RaoButton from "./RaoButtom";
 import Hello from "./Hello";
 import Random from "./Random";
+import Fragments from "./Fragments";
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 function App() {
-  return <div>
+  return (
+    <div>
+      <h1>Hello World</h1>
 
-  <h1>
-    Hello World
-  </h1>
+      <RaoButton></RaoButton>
+      <Hello></Hello>
+      <Random></Random>
+      <Random></Random>
 
-  <RaoButton></RaoButton>
-  <Hello></Hello>
-  <Random></Random>
-  <Random></Random>
+      <button type="button" class="btn btn-primary">
+        Primary
+      </button>
+      <button type="button" class="btn btn-secondary">
+        Secondary
+      </button>
+      <button type="button" class="btn btn-success">
+        Success
+      </button>
+      <button type="button" class="btn btn-danger">
+        Danger
+      </button>
+      <button type="button" class="btn btn-warning">
+        Warning
+      </button>
+      <button type="button" class="btn btn-info">
+        Info
+      </button>
+      <button type="button" class="btn btn-light">
+        Light
+      </button>
+      <button type="button" class="btn btn-dark">
+        Dark
+      </button>
+      <button type="button" class="btn btn-link">
+        Link
+      </button>
 
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-light">Light</button>
-  <button type="button" class="btn btn-dark">Dark</button>
-  <button type="button" class="btn btn-link">Link</button>
-
-
-   
-  
-
-  </div> 
-  
-  
-  
-
+      <Fragments></Fragments>
+    </div>
+  );
 }
 
 export default App;
